@@ -1,0 +1,20 @@
+1. Import the ODL file "presentationSchema.odl "into your Matisse (use the same name "presentation" as database name)
+2. Import the xml file "presentation" into your Matisse.
+3. Open Final Project from Eclips.
+4. Before Running you need to adjust the Class "CatalougeBackgroundWork" this class has a path for to store 
+   the catalogu as PDF file after prining it, you need to adjust that path into your machine name    
+   the path line in the class is 126.
+5. Run the project from the Login class
+6. Use these accounts to login:
+	a. Manager account
+              	username 1343
+		password 1343
+	b. Admin Account 
+              	username 2222
+		password 2222
+	c. Auctioneer account
+              	username 3333
+		password 3333
+
+Thank you..
+Hussein Ajam

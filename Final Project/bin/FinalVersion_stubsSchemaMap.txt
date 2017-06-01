@@ -1,0 +1,30 @@
+#
+# Generated with Matisse Schema Definition Language 9.1.8
+# Generation date: Thu Apr 07 21:16:53 2016
+#
+# Mapping of Java classes and indexes to the corresponding database schema objects
+#
+ArtItem = ArtItem
+findArtItem = findArtItem
+findArtItemTitle = findArtItemTitle
+PaintingCategory = PaintingCategory
+findPaintingCategory = findPaintingCategory
+DrawingCategory = DrawingCategory
+findDrawingCategory = findDrawingCategory
+AuctionDetails = AuctionDetails
+findAuctionTitle = findAuctionTitle
+findAuction = findAuction
+PhotographicCategory = PhotographicCategory
+findPhotographicCategory = findPhotographicCategory
+SculptureCategory = SculptureCategory
+findSculptureCategory = findSculptureCategory
+CarvingCategory = CarvingCategory
+findCarvingCategory = findCarvingCategory
+BuyerClient = BuyerClient
+findBuyerClient = findBuyerClient
+SellerClient = SellerClient
+findSellerClient = findSellerClient
+Appraiser = Appraiser
+findAppraiser = findAppraiser
+ComissionBidsDetails = ComissionBidsDetails
+findBidding = findBidding

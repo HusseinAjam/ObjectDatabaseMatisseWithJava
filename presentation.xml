@@ -1,0 +1,341 @@
+<?xml version="1.0"?>
+<!-- Matisse XML Document -->
+<!-- Generated with Matisse XML Manager x64 Version 9.1.8.2 -->
+<!-- Generation date: 2016-04-24 04:38:06 -->
+<!-- Produced from database 'presentation@Batool' -->
+<?mt_xml version="2"
+         container="yes"
+         oid="yes"
+         full="yes"
+         count="31"?>
+<MtContainer>
+
+<ArtItem oid="4422">
+<ItemlotNo MtBasicType="MT_INTEGER">1</ItemlotNo>
+<ArtTitle MtBasicType="MT_STRING">1</ArtTitle>
+<ArtistName MtBasicType="MT_STRING">1</ArtistName>
+<PeriodFrom MtBasicType="MT_STRING">1</PeriodFrom>
+<Classification MtBasicType="MT_STRING">1</Classification>
+<Description MtBasicType="MT_STRING">3</Description>
+<ProvenanceDetails MtBasicType="MT_STRING">3</ProvenanceDetails>
+<Authentification MtBasicType="MT_BOOLEAN">True</Authentification>
+<CustomerAgreement MtBasicType="MT_BOOLEAN">True</CustomerAgreement>
+<AuctionEstimatedDateDate MtBasicType="MT_STRING">1</AuctionEstimatedDateDate>
+<EstimatedPrice MtBasicType="MT_DOUBLE">1.000000e+000</EstimatedPrice>
+<ReservedPrice MtBasicType="MT_DOUBLE">1.000000e+000</ReservedPrice>
+<Picture MtBasicType="MT_STRING">another rotate.gif</Picture>
+<SoldCheck MtBasicType="MT_BOOLEAN">True</SoldCheck>
+<SoldPrice MtBasicType="MT_INTEGER">250000</SoldPrice>
+<AuctioneersComments MtBasicType="MT_STRING">nothing </AuctioneersComments>
+<DrawingCategory oid="4423" MtRelationship="to_drawing"/>
+<AuctionDetails oid="4429" MtRelationship="target_auction"/>
+</ArtItem>
+
+<ArtItem oid="4424">
+<ItemlotNo MtBasicType="MT_INTEGER">2</ItemlotNo>
+<ArtTitle MtBasicType="MT_STRING">Hourse</ArtTitle>
+<ArtistName MtBasicType="MT_STRING">Antonio</ArtistName>
+<PeriodFrom MtBasicType="MT_STRING">1200</PeriodFrom>
+<Classification MtBasicType="MT_STRING">class</Classification>
+<Description MtBasicType="MT_STRING">3</Description>
+<ProvenanceDetails MtBasicType="MT_STRING">3</ProvenanceDetails>
+<Authentification MtBasicType="MT_BOOLEAN">True</Authentification>
+<CustomerAgreement MtBasicType="MT_BOOLEAN">True</CustomerAgreement>
+<AuctionEstimatedDateDate MtBasicType="MT_STRING">jan 2,2016</AuctionEstimatedDateDate>
+<EstimatedPrice MtBasicType="MT_DOUBLE">1.200000e+005</EstimatedPrice>
+<ReservedPrice MtBasicType="MT_DOUBLE">1.000000e+005</ReservedPrice>
+<Picture MtBasicType="MT_STRING">two.jpg</Picture>
+<SoldCheck MtBasicType="MT_BOOLEAN">True</SoldCheck>
+<SoldPrice MtBasicType="MT_INTEGER">100000</SoldPrice>
+<AuctioneersComments MtBasicType="MT_STRING">nothing</AuctioneersComments>
+<AuctionDetails oid="4429" MtRelationship="target_auction"/>
+<PhotographicCategory oid="4425" MtRelationship="to_photo"/>
+</ArtItem>
+
+<ArtItem oid="4430">
+<ItemlotNo MtBasicType="MT_INTEGER">3</ItemlotNo>
+<ArtTitle MtBasicType="MT_STRING">Cenary</ArtTitle>
+<ArtistName MtBasicType="MT_STRING">4</ArtistName>
+<PeriodFrom MtBasicType="MT_STRING">4</PeriodFrom>
+<Classification MtBasicType="MT_STRING">4</Classification>
+<Description MtBasicType="MT_STRING">2</Description>
+<ProvenanceDetails MtBasicType="MT_STRING">5</ProvenanceDetails>
+<Authentification MtBasicType="MT_BOOLEAN">True</Authentification>
+<CustomerAgreement MtBasicType="MT_BOOLEAN">True</CustomerAgreement>
+<AuctionEstimatedDateDate MtBasicType="MT_STRING">4</AuctionEstimatedDateDate>
+<EstimatedPrice MtBasicType="MT_DOUBLE">4.000000e+000</EstimatedPrice>
+<ReservedPrice MtBasicType="MT_DOUBLE">4.000000e+000</ReservedPrice>
+<Picture MtBasicType="MT_STRING">two.jpg</Picture>
+<SoldCheck MtBasicType="MT_BOOLEAN">True</SoldCheck>
+<SoldPrice MtBasicType="MT_INTEGER">30000</SoldPrice>
+<AuctioneersComments MtBasicType="MT_STRING">222</AuctioneersComments>
+<PaintingCategory oid="4431" MtRelationship="to_painting"/>
+<AuctionDetails oid="4428" MtRelationship="target_auction"/>
+</ArtItem>
+
+<ArtItem oid="4432">
+<ItemlotNo MtBasicType="MT_INTEGER">5</ItemlotNo>
+<ArtTitle MtBasicType="MT_STRING">Carvy</ArtTitle>
+<ArtistName MtBasicType="MT_STRING">2</ArtistName>
+<PeriodFrom MtBasicType="MT_STRING">2</PeriodFrom>
+<Classification MtBasicType="MT_STRING">2</Classification>
+<Description MtBasicType="MT_STRING">3</Description>
+<ProvenanceDetails MtBasicType="MT_STRING">3</ProvenanceDetails>
+<Authentification MtBasicType="MT_BOOLEAN">True</Authentification>
+<CustomerAgreement MtBasicType="MT_BOOLEAN">True</CustomerAgreement>
+<AuctionEstimatedDateDate MtBasicType="MT_STRING">2</AuctionEstimatedDateDate>
+<EstimatedPrice MtBasicType="MT_DOUBLE">2.000000e+000</EstimatedPrice>
+<ReservedPrice MtBasicType="MT_DOUBLE">2.000000e+000</ReservedPrice>
+<Picture MtBasicType="MT_STRING">one.jpg</Picture>
+<SoldCheck MtBasicType="MT_BOOLEAN">True</SoldCheck>
+<SoldPrice MtBasicType="MT_INTEGER">18000</SoldPrice>
+<AuctioneersComments MtBasicType="MT_STRING">hhfhf</AuctioneersComments>
+<AuctionDetails oid="4429" MtRelationship="target_auction"/>
+<CarvingCategory oid="4433" MtRelationship="to_carving"/>
+</ArtItem>
+
+<ArtItem oid="4436">
+<ItemlotNo MtBasicType="MT_INTEGER">6</ItemlotNo>
+<ArtTitle MtBasicType="MT_STRING">Gold</ArtTitle>
+<ArtistName MtBasicType="MT_STRING">6</ArtistName>
+<PeriodFrom MtBasicType="MT_STRING">6</PeriodFrom>
+<Classification MtBasicType="MT_STRING">6</Classification>
+<Description MtBasicType="MT_STRING">3</Description>
+<ProvenanceDetails MtBasicType="MT_STRING">3</ProvenanceDetails>
+<Authentification MtBasicType="MT_BOOLEAN">True</Authentification>
+<CustomerAgreement MtBasicType="MT_BOOLEAN">True</CustomerAgreement>
+<AuctionEstimatedDateDate MtBasicType="MT_STRING">6</AuctionEstimatedDateDate>
+<EstimatedPrice MtBasicType="MT_DOUBLE">6.000000e+000</EstimatedPrice>
+<ReservedPrice MtBasicType="MT_DOUBLE">6.000000e+000</ReservedPrice>
+<Picture MtBasicType="MT_STRING">rotate.gif</Picture>
+<SoldCheck MtBasicType="MT_BOOLEAN">True</SoldCheck>
+<SoldPrice MtBasicType="MT_INTEGER">8000000</SoldPrice>
+<AuctioneersComments MtBasicType="MT_STRING">ddd</AuctioneersComments>
+<AuctionDetails oid="4428" MtRelationship="target_auction"/>
+<CarvingCategory oid="4437" MtRelationship="to_carving"/>
+</ArtItem>
+
+<ArtItem oid="4440">
+<ItemlotNo MtBasicType="MT_INTEGER">8</ItemlotNo>
+<ArtTitle MtBasicType="MT_STRING">Silver</ArtTitle>
+<ArtistName MtBasicType="MT_STRING">5</ArtistName>
+<PeriodFrom MtBasicType="MT_STRING">5</PeriodFrom>
+<Classification MtBasicType="MT_STRING">5</Classification>
+<Description MtBasicType="MT_STRING">55</Description>
+<ProvenanceDetails MtBasicType="MT_STRING">55</ProvenanceDetails>
+<Authentification MtBasicType="MT_BOOLEAN">True</Authentification>
+<CustomerAgreement MtBasicType="MT_BOOLEAN">True</CustomerAgreement>
+<AuctionEstimatedDateDate MtBasicType="MT_STRING">5</AuctionEstimatedDateDate>
+<EstimatedPrice MtBasicType="MT_DOUBLE">5.000000e+000</EstimatedPrice>
+<ReservedPrice MtBasicType="MT_DOUBLE">5.000000e+000</ReservedPrice>
+<Picture MtBasicType="MT_STRING">another rotate.gif</Picture>
+<SoldCheck MtBasicType="MT_BOOLEAN">True</SoldCheck>
+<SoldPrice MtBasicType="MT_INTEGER">400000</SoldPrice>
+<AuctioneersComments MtBasicType="MT_STRING">kkk</AuctioneersComments>
+<DrawingCategory oid="4441" MtRelationship="to_drawing"/>
+<AuctionDetails oid="4428" MtRelationship="target_auction"/>
+</ArtItem>
+
+<PaintingCategory oid="4431">
+<PaintingMedium MtBasicType="MT_STRING">3</PaintingMedium>
+<PaintingFrame MtBasicType="MT_STRING">2</PaintingFrame>
+<PaintingDimension MtBasicType="MT_STRING">3</PaintingDimension>
+</PaintingCategory>
+
+<DrawingCategory oid="4423">
+<DrawingMedium MtBasicType="MT_STRING">3</DrawingMedium>
+<DrawingFrame MtBasicType="MT_STRING">Framed</DrawingFrame>
+<DrawingDimension MtBasicType="MT_STRING">3</DrawingDimension>
+</DrawingCategory>
+
+<DrawingCategory oid="4441">
+<DrawingMedium MtBasicType="MT_STRING">5</DrawingMedium>
+<DrawingFrame MtBasicType="MT_STRING">Framed</DrawingFrame>
+<DrawingDimension MtBasicType="MT_STRING">5</DrawingDimension>
+</DrawingCategory>
+
+<AuctionDetails oid="4428">
+<AuctionName MtBasicType="MT_STRING">Fine Art</AuctionName>
+<AuctionDate MtBasicType="MT_STRING">April 2, 2016</AuctionDate>
+<AuctionTheme MtBasicType="MT_STRING">Nice</AuctionTheme>
+<AuctionLocation MtBasicType="MT_STRING">London</AuctionLocation>
+<AuctionPeriod MtBasicType="MT_STRING">Morning</AuctionPeriod>
+<AuctionLotNumber MtBasicType="MT_INTEGER">1</AuctionLotNumber>
+</AuctionDetails>
+
+<AuctionDetails oid="4429">
+<AuctionName MtBasicType="MT_STRING">Advance</AuctionName>
+<AuctionDate MtBasicType="MT_STRING">March 10, 2016</AuctionDate>
+<AuctionTheme MtBasicType="MT_STRING">Coins</AuctionTheme>
+<AuctionLocation MtBasicType="MT_STRING">New York</AuctionLocation>
+<AuctionPeriod MtBasicType="MT_STRING">Afternoon</AuctionPeriod>
+<AuctionLotNumber MtBasicType="MT_INTEGER">2</AuctionLotNumber>
+</AuctionDetails>
+
+<PhotographicCategory oid="4425">
+<PhotoType MtBasicType="MT_STRING">9</PhotoType>
+<PhotoDimension MtBasicType="MT_STRING">9</PhotoDimension>
+</PhotographicCategory>
+
+<CarvingCategory oid="4433">
+<CarvingMaterial MtBasicType="MT_STRING">3</CarvingMaterial>
+<CarvingDimension MtBasicType="MT_STRING">3</CarvingDimension>
+<CarvingWeight MtBasicType="MT_INTEGER">3</CarvingWeight>
+</CarvingCategory>
+
+<CarvingCategory oid="4437">
+<CarvingMaterial MtBasicType="MT_STRING">6</CarvingMaterial>
+<CarvingDimension MtBasicType="MT_STRING">6</CarvingDimension>
+<CarvingWeight MtBasicType="MT_INTEGER">6</CarvingWeight>
+</CarvingCategory>
+
+<BuyerClient oid="4426">
+<BID MtBasicType="MT_INTEGER">1</BID>
+<BTitle MtBasicType="MT_STRING">Mr</BTitle>
+<BFirstName MtBasicType="MT_STRING">Ali</BFirstName>
+<BLastName MtBasicType="MT_STRING">Ajam</BLastName>
+<BAddress MtBasicType="MT_STRING">11 Arnold Road</BAddress>
+<BPhone MtBasicType="MT_STRING">01011010001</BPhone>
+<BEmail MtBasicType="MT_STRING">ali@yahoo.com</BEmail>
+<BApproved MtBasicType="MT_BOOLEAN">True</BApproved>
+<BBankAccountNo MtBasicType="MT_STRING">51545545</BBankAccountNo>
+<BBankSortCode MtBasicType="MT_STRING">55</BBankSortCode>
+<ComissionBidsDetails oid="4427" MtRelationship="bidding"/>
+<ComissionBidsDetails oid="4434" MtRelationship="bidding"/>
+<ArtItem oid="4422" MtRelationship="buy"/>
+<ArtItem oid="4424" MtRelationship="buy"/>
+<ArtItem oid="4430" MtRelationship="buy"/>
+<ArtItem oid="4432" MtRelationship="buy"/>
+<ArtItem oid="4436" MtRelationship="buy"/>
+</BuyerClient>
+
+<BuyerClient oid="4435">
+<BID MtBasicType="MT_INTEGER">2</BID>
+<BTitle MtBasicType="MT_STRING">Mrs</BTitle>
+<BFirstName MtBasicType="MT_STRING">Juseny </BFirstName>
+<BLastName MtBasicType="MT_STRING">hhh</BLastName>
+<BAddress MtBasicType="MT_STRING">555</BAddress>
+<BPhone MtBasicType="MT_STRING">323233232</BPhone>
+<BEmail MtBasicType="MT_STRING">ffff</BEmail>
+<BApproved MtBasicType="MT_BOOLEAN">True</BApproved>
+<BBankAccountNo MtBasicType="MT_STRING">fff</BBankAccountNo>
+<BBankSortCode MtBasicType="MT_STRING">fff</BBankSortCode>
+<ComissionBidsDetails oid="4438" MtRelationship="bidding"/>
+<ComissionBidsDetails oid="4442" MtRelationship="bidding"/>
+</BuyerClient>
+
+<SellerClient oid="4415">
+<SellerFirstName MtBasicType="MT_STRING">Hussein</SellerFirstName>
+<SellerSurname MtBasicType="MT_STRING">Ajam</SellerSurname>
+<SellerId MtBasicType="MT_INTEGER">1</SellerId>
+<SellerEmail MtBasicType="MT_STRING">hussein@yahoo.com</SellerEmail>
+<SellerBankDetail MtBasicType="MT_STRING">12121212</SellerBankDetail>
+<SellerAddress MtBasicType="MT_STRING">11 Arnold Road</SellerAddress>
+<SellerTitle MtBasicType="MT_STRING">MR</SellerTitle>
+<SellerPhone MtBasicType="MT_STRING">07767555876</SellerPhone>
+<SellerBankSortCode MtBasicType="MT_STRING">121212</SellerBankSortCode>
+</SellerClient>
+
+<SellerClient oid="4416">
+<SellerFirstName MtBasicType="MT_STRING">Sally</SellerFirstName>
+<SellerSurname MtBasicType="MT_STRING">Ali</SellerSurname>
+<SellerId MtBasicType="MT_INTEGER">2</SellerId>
+<SellerEmail MtBasicType="MT_STRING">sally@yahoo.com</SellerEmail>
+<SellerBankDetail MtBasicType="MT_STRING">121122</SellerBankDetail>
+<SellerAddress MtBasicType="MT_STRING">11 kkk</SellerAddress>
+<SellerTitle MtBasicType="MT_STRING">Mrs</SellerTitle>
+<SellerPhone MtBasicType="MT_STRING">0775866654</SellerPhone>
+<SellerBankSortCode MtBasicType="MT_STRING">121212</SellerBankSortCode>
+</SellerClient>
+
+<SellerClient oid="4421">
+<SellerFirstName MtBasicType="MT_STRING">3</SellerFirstName>
+<SellerSurname MtBasicType="MT_STRING">3</SellerSurname>
+<SellerId MtBasicType="MT_INTEGER">3</SellerId>
+<SellerEmail MtBasicType="MT_STRING">3</SellerEmail>
+<SellerBankDetail MtBasicType="MT_STRING">3</SellerBankDetail>
+<SellerAddress MtBasicType="MT_STRING">3</SellerAddress>
+<SellerTitle MtBasicType="MT_STRING">3</SellerTitle>
+<SellerPhone MtBasicType="MT_STRING">3</SellerPhone>
+<SellerBankSortCode MtBasicType="MT_STRING">3</SellerBankSortCode>
+<ArtItem oid="4422" MtRelationship="sells"/>
+<ArtItem oid="4424" MtRelationship="sells"/>
+<ArtItem oid="4430" MtRelationship="sells"/>
+<ArtItem oid="4432" MtRelationship="sells"/>
+<ArtItem oid="4436" MtRelationship="sells"/>
+<ArtItem oid="4440" MtRelationship="sells"/>
+</SellerClient>
+
+<Appraiser oid="4406">
+<AppraiserName MtBasicType="MT_STRING">Moly</AppraiserName>
+<Specialism MtBasicType="MT_STRING">Specialists in Photographic</Specialism>
+</Appraiser>
+
+<Appraiser oid="4407">
+<AppraiserName MtBasicType="MT_STRING">Sally</AppraiserName>
+<Specialism MtBasicType="MT_STRING">Specialists in Drawing</Specialism>
+</Appraiser>
+
+<Appraiser oid="4408">
+<AppraiserName MtBasicType="MT_STRING">Ali</AppraiserName>
+<Specialism MtBasicType="MT_STRING">Specialists in Painting</Specialism>
+</Appraiser>
+
+<Appraiser oid="4409">
+<AppraiserName MtBasicType="MT_STRING">Sica</AppraiserName>
+<Specialism MtBasicType="MT_STRING">Specialists in Sculpture</Specialism>
+</Appraiser>
+
+<ComissionBidsDetails oid="4427">
+<ArtLotNo MtBasicType="MT_INTEGER">1</ArtLotNo>
+<StartFromBidding MtBasicType="MT_DOUBLE">1.000000e+004</StartFromBidding>
+<MaximumBidding MtBasicType="MT_DOUBLE">5.000000e+006</MaximumBidding>
+</ComissionBidsDetails>
+
+<ComissionBidsDetails oid="4434">
+<ArtLotNo MtBasicType="MT_INTEGER">5</ArtLotNo>
+<StartFromBidding MtBasicType="MT_DOUBLE">1.500000e+004</StartFromBidding>
+<MaximumBidding MtBasicType="MT_DOUBLE">2.000000e+004</MaximumBidding>
+</ComissionBidsDetails>
+
+<ComissionBidsDetails oid="4438">
+<ArtLotNo MtBasicType="MT_INTEGER">6</ArtLotNo>
+<StartFromBidding MtBasicType="MT_DOUBLE">1.200000e+005</StartFromBidding>
+<MaximumBidding MtBasicType="MT_DOUBLE">1.500000e+005</MaximumBidding>
+</ComissionBidsDetails>
+
+<ComissionBidsDetails oid="4439">
+<ArtLotNo MtBasicType="MT_INTEGER">6</ArtLotNo>
+<StartFromBidding MtBasicType="MT_DOUBLE">6.000000e+004</StartFromBidding>
+<MaximumBidding MtBasicType="MT_DOUBLE">6.600000e+004</MaximumBidding>
+</ComissionBidsDetails>
+
+<ComissionBidsDetails oid="4442">
+<ArtLotNo MtBasicType="MT_INTEGER">8</ArtLotNo>
+<StartFromBidding MtBasicType="MT_DOUBLE">5.000000e+005</StartFromBidding>
+<MaximumBidding MtBasicType="MT_DOUBLE">6.000000e+005</MaximumBidding>
+</ComissionBidsDetails>
+
+<Staff oid="4410">
+<staffId MtBasicType="MT_INTEGER">1343</staffId>
+<staffName MtBasicType="MT_STRING">Hussein</staffName>
+<staffLevel MtBasicType="MT_INTEGER">1</staffLevel>
+<password MtBasicType="MT_STRING">1343</password>
+</Staff>
+
+<Staff oid="4411">
+<staffId MtBasicType="MT_INTEGER">2222</staffId>
+<staffName MtBasicType="MT_STRING">Hussein</staffName>
+<staffLevel MtBasicType="MT_INTEGER">2</staffLevel>
+<password MtBasicType="MT_STRING">2222</password>
+</Staff>
+
+<Staff oid="4412">
+<staffId MtBasicType="MT_INTEGER">3333</staffId>
+<staffName MtBasicType="MT_STRING">Hussein</staffName>
+<staffLevel MtBasicType="MT_INTEGER">3</staffLevel>
+<password MtBasicType="MT_STRING">3333</password>
+</Staff>
+
+
+</MtContainer>

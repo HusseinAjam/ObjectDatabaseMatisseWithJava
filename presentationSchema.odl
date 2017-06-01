@@ -1,0 +1,169 @@
+//                         -*-c++-*-
+//
+// Application Schema Description
+// Generated with Matisse Schema Definition Language 9.1.8 
+//
+// Generation date: Sun Apr 24 04:37:49 2016
+// Generated from database 'presentation@Batool'
+//
+
+
+
+
+// Interface Definitions
+//----------------------
+
+interface ArtItem : persistent {
+  attribute Integer ItemlotNo;
+  mt_entry_point_dictionary findArtItem entry_point_of ItemlotNo;
+  attribute String ArtTitle;
+  mt_entry_point_dictionary findArtItemTitle entry_point_of ArtTitle;
+  attribute String ArtistName;
+  attribute String PeriodFrom;
+  attribute String Nullable PeriodTo;
+  attribute String Classification;
+  attribute String Description;
+  attribute String ProvenanceDetails;
+  attribute Boolean Authentification;
+  attribute Boolean CustomerAgreement;
+  attribute String AuctionEstimatedDateDate;
+  attribute Double EstimatedPrice;
+  attribute Double ReservedPrice;
+  attribute String Nullable Picture;
+  attribute Boolean Nullable SoldCheck;
+  attribute Integer Nullable SoldPrice;
+  attribute String Nullable AuctioneersComments;
+  relationship Set<PaintingCategory> to_painting[0, -1]
+    inverse PaintingCategory::from_painting;
+  relationship Set<DrawingCategory> to_drawing[0, -1]
+    inverse DrawingCategory::from_drawing;
+  relationship Set<AuctionDetails> target_auction[0, -1]
+    inverse AuctionDetails::auction_item;
+  relationship Set<PhotographicCategory> to_photo[0, -1]
+    inverse PhotographicCategory::from_photo;
+  relationship Set<SculptureCategory> to_sculpture[0, -1]
+    inverse SculptureCategory::from_sculpure;
+  relationship Set<CarvingCategory> to_carving[0, -1]
+    inverse CarvingCategory::from_carving;
+  readonly relationship BuyerClient bought_from[0, 1]
+    inverse BuyerClient::buy;
+  readonly relationship SellerClient actual_seller[0, 1]
+    inverse SellerClient::sells;
+  readonly relationship Appraiser checked_by[0, 1]
+    inverse Appraiser::checked_item;
+};
+
+interface PaintingCategory : persistent {
+  attribute String PaintingMedium;
+  mt_entry_point_dictionary findPaintingCategory entry_point_of PaintingMedium;
+  attribute String PaintingFrame;
+  attribute String PaintingDimension;
+  readonly relationship ArtItem from_painting
+    inverse ArtItem::to_painting;
+};
+
+interface DrawingCategory : persistent {
+  attribute String DrawingMedium;
+  mt_entry_point_dictionary findDrawingCategory entry_point_of DrawingMedium;
+  attribute String DrawingFrame;
+  attribute String DrawingDimension;
+  readonly relationship ArtItem from_drawing
+    inverse ArtItem::to_drawing;
+};
+
+interface AuctionDetails : persistent {
+  attribute String AuctionName;
+  mt_entry_point_dictionary findAuctionTitle entry_point_of AuctionName;
+  attribute String AuctionDate;
+  attribute String AuctionTheme;
+  attribute String AuctionLocation;
+  attribute String AuctionPeriod;
+  attribute Integer AuctionLotNumber;
+  mt_entry_point_dictionary findAuction entry_point_of AuctionLotNumber;
+  readonly relationship Set<ArtItem> auction_item[0, -1]
+    inverse ArtItem::target_auction;
+};
+
+interface PhotographicCategory : persistent {
+  attribute String PhotoType;
+  mt_entry_point_dictionary findPhotographicCategory entry_point_of PhotoType;
+  attribute String PhotoDimension;
+  readonly relationship ArtItem from_photo
+    inverse ArtItem::to_photo;
+};
+
+interface SculptureCategory : persistent {
+  attribute String SculptureMaterial;
+  mt_entry_point_dictionary findSculptureCategory entry_point_of SculptureMaterial;
+  attribute String SculptureDimension;
+  attribute Double SculptureWeight;
+  readonly relationship ArtItem from_sculpure
+    inverse ArtItem::to_sculpture;
+};
+
+interface CarvingCategory : persistent {
+  attribute String CarvingMaterial;
+  mt_entry_point_dictionary findCarvingCategory entry_point_of CarvingMaterial;
+  attribute String CarvingDimension;
+  attribute Integer CarvingWeight;
+  readonly relationship ArtItem from_carving
+    inverse ArtItem::to_carving;
+};
+
+interface BuyerClient : persistent {
+  attribute Integer BID;
+  mt_entry_point_dictionary findBuyerClient entry_point_of BID;
+  attribute String BTitle;
+  attribute String BFirstName;
+  attribute String BLastName;
+  attribute String BAddress;
+  attribute String BPhone;
+  attribute String BEmail;
+  attribute Boolean BApproved;
+  attribute String BBankAccountNo;
+  attribute String BBankSortCode;
+  relationship Set<ComissionBidsDetails> bidding[0, -1]
+    inverse ComissionBidsDetails::actual_buyer;
+  relationship Set<ArtItem> buy[0, -1]
+    inverse ArtItem::bought_from;
+};
+
+interface SellerClient : persistent {
+  attribute String SellerFirstName;
+  attribute String Nullable SellerSurname;
+  attribute Integer SellerId;
+  mt_entry_point_dictionary findSellerClient entry_point_of SellerId;
+  attribute String SellerEmail;
+  attribute String SellerBankDetail;
+  attribute String Nullable SellerAddress;
+  attribute String Nullable SellerTitle;
+  attribute String Nullable SellerPhone;
+  attribute String Nullable SellerBankSortCode;
+  relationship Set<ArtItem> sells[0, -1]
+    inverse ArtItem::actual_seller;
+};
+
+interface Appraiser : persistent {
+  attribute String AppraiserName;
+  mt_entry_point_dictionary findAppraiser entry_point_of AppraiserName;
+  attribute String Specialism;
+  relationship Set<ArtItem> checked_item[0, -1]
+    inverse ArtItem::checked_by;
+};
+
+interface ComissionBidsDetails : persistent {
+  attribute Integer ArtLotNo;
+  mt_entry_point_dictionary findBidding entry_point_of ArtLotNo;
+  attribute Double StartFromBidding;
+  attribute Double MaximumBidding;
+  readonly relationship Set<BuyerClient> actual_buyer[0, -1]
+    inverse BuyerClient::bidding;
+};
+
+interface Staff : persistent {
+  attribute Integer staffId;
+  mt_entry_point_dictionary findStaff entry_point_of staffId;
+  attribute String staffName;
+  attribute Integer staffLevel;
+  attribute String password;
+};
